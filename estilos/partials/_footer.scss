@@ -1,0 +1,32 @@
+.card{
+    .footer-title{
+        text-transform: $mayuscula;
+        font-weight: $normal;
+    }
+
+    .footer-a{
+
+        a{
+            text-decoration: none;
+
+            li{
+                &:hover{
+                    font-weight: $normal;
+                }
+            }
+        }
+
+    }
+}
+
+.footer-icons{
+    text-decoration: none;
+
+    a{
+        color: $color2;
+
+        &:hover{
+            color: $color1;
+        }
+    }
+}

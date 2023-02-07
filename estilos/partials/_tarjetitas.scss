@@ -1,0 +1,52 @@
+.tarjetitas{
+
+    h4{
+        text-transform: $mayuscula;
+    }
+
+    a{
+        @extend h4
+    }
+}
+
+.contacto{
+    border: none;
+
+    img{
+        border-radius: 10px;
+    }
+}
+
+.valeria,
+.nosotros-omnilife{
+    border: none;
+
+    strong{
+        font-size: 25px;
+        text-transform: $mayuscula;
+    }
+
+    a{
+        text-transform: $mayuscula;
+    }
+
+}
+
+.articulos{
+    .card{
+        border: none;
+    }
+
+    strong,
+    a{
+        text-transform: $mayuscula;
+    }
+
+    img{
+        &:hover{
+            transform: scale(1.1);
+            transition: 0.7s;
+        }
+    }
+    
+}

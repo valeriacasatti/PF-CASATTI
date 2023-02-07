@@ -1,0 +1,32 @@
+@import "./partials/variables";
+@import "./partials/_reset";
+@import "./partials/_header.scss";
+@import "./partials/_hero.scss";
+@import "./partials/minicatalogo";
+@import "./partials/tarjetitas";
+@import "./partials/contacto";
+@import "./partials/footer";
+
+@media screen and (max-width: 768px) {
+
+    .minicatalogo{
+        .miniarticulo1{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .contact-form{
+        display: flex;
+        justify-content: center;
+
+        label{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    
+    hr{
+        display: none;
+    }
+}

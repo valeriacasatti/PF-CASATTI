@@ -1,0 +1,35 @@
+.accordion-button{
+    text-transform: $mayuscula;
+    font-weight: $normal;
+
+    &:focus{
+        box-shadow: inherit;
+    }
+
+    &:not(.collapsed){
+        color: $color1;
+        background-color: transparent;
+
+        &::after{
+            filter: brightness(0%);
+        }
+    }
+    
+}
+
+.accordion-body{
+
+    a{
+        text-decoration: none;
+        color: $color1;
+
+        &:hover{
+            font-weight: $normal;
+        }
+    }
+}
+
+.form-label{
+    text-transform: $mayuscula;
+    font-weight: $normal;
+}

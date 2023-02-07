@@ -1,0 +1,28 @@
+.best-seller{
+    margin-block: 30px;
+    text-transform: $mayuscula;
+
+    a{
+        text-decoration: none;
+        text-align: end;
+    }
+}
+
+.minicatalogo{
+    text-transform: $mayuscula;
+    
+    .miniarticulo1{
+        &:hover{
+            transform: scale(1.1);
+            transition: 0.7s;
+        }
+    }
+
+    .miniarticulo2{
+        @extend .miniarticulo1;
+    }
+
+    .miniarticulo3{
+        @extend .miniarticulo1
+    }
+}

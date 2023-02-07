@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 100;
+}
+
+#navbar-uppercase {
+  text-transform: uppercase;
+}
+#navbar-uppercase .navbar-brand {
+  font-size: 40px;
+}
+#navbar-uppercase .collapse {
+  font-size: 20px;
+}
+
+.hero h1 {
+  text-transform: uppercase;
+}
+
+.seytu {
+  border: none;
+}
+
+.best-seller {
+  margin-block: 30px;
+  text-transform: uppercase;
+}
+.best-seller a {
+  text-decoration: none;
+  text-align: end;
+}
+
+.minicatalogo {
+  text-transform: uppercase;
+}
+.minicatalogo .miniarticulo1:hover, .minicatalogo .miniarticulo3:hover, .minicatalogo .miniarticulo2:hover {
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+.tarjetitas h4, .tarjetitas a {
+  text-transform: uppercase;
+}
+.contacto {
+  border: none;
+}
+.contacto img {
+  border-radius: 10px;
+}
+
+.valeria,
+.nosotros-omnilife {
+  border: none;
+}
+.valeria strong,
+.nosotros-omnilife strong {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.valeria a,
+.nosotros-omnilife a {
+  text-transform: uppercase;
+}
+
+.articulos .card {
+  border: none;
+}
+.articulos strong,
+.articulos a {
+  text-transform: uppercase;
+}
+.articulos img:hover {
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+.accordion-button {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.accordion-button:focus {
+  box-shadow: inherit;
+}
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: transparent;
+}
+.accordion-button:not(.collapsed)::after {
+  filter: brightness(0%);
+}
+
+.accordion-body a {
+  text-decoration: none;
+  color: black;
+}
+.accordion-body a:hover {
+  font-weight: normal;
+}
+
+.form-label {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.card .footer-title {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.card .footer-a a {
+  text-decoration: none;
+}
+.card .footer-a a li:hover {
+  font-weight: normal;
+}
+
+.footer-icons {
+  text-decoration: none;
+}
+.footer-icons a {
+  color: #4d4d4d;
+}
+.footer-icons a:hover {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .minicatalogo .miniarticulo1, .minicatalogo .miniarticulo2, .minicatalogo .miniarticulo3 {
+    display: flex;
+    justify-content: center;
+  }
+  .contact-form {
+    display: flex;
+    justify-content: center;
+  }
+  .contact-form label {
+    display: flex;
+    justify-content: center;
+  }
+  hr {
+    display: none;
+  }
+}/*# sourceMappingURL=estilo.css.map */
